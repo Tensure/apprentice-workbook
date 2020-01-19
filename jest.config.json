@@ -2,6 +2,8 @@
     "reporters": [
       "default",
       ["jest-html-reporters", {
+          "publicPath": "./reporter/",
+          "filename": "index.html",
           "logoImgPath": "assets/tensure.png"
       }]
     ]
