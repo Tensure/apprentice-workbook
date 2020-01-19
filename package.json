@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "jest --config=jest.config.json"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "jest-html-reporters": "^1.2.1"
   }
 }
