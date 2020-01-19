@@ -1,0 +1,8 @@
+{
+    "reporters": [
+      "default",
+      ["jest-html-reporters", {
+          "logoImgPath": "assets/tensure.png"
+      }]
+    ]
+}
