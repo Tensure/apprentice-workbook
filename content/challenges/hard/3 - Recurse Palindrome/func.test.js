@@ -1,4 +1,4 @@
-const func = require('./func.js.js.js');
+const func = require('./func.js');
 
 test('Expect true, is palindrom', () => {
     expect(func("abcba")).toBe(true);
