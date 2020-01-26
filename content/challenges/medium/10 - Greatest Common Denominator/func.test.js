@@ -17,5 +17,9 @@ test('Expect 2, 1 > GCD 1', () => {
 });
 
 test('Expect 2, 3 > GCD 1', () => {
-    expect(func(2, 1)).toBe(1);
+    expect(func(2, 3)).toBe(1);
+});
+
+test('Expect 145, 75 > GCD 5', () => {
+    expect(func(145, 75)).toBe(5);
 });
