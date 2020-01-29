@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "concurrently -k 'jest --config=jest.config.json --watchAll' 'live-server -q --watch=./reporter/index.html --open=/reporter'"
+    "test": 'concurrently -k "jest --config=jest.config.json --watchAll" "live-server -q --watch=./reporter/index.html --open=/reporter"'
   },
   "author": "",
   "license": "ISC",
