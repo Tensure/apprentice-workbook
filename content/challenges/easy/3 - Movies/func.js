@@ -6,5 +6,4 @@
 
 // Return True or False in every situation
 module.exports = (customerMoney, isMovieFull, rating, age, isParentWith) => {
-    
-}
+};
