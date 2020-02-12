@@ -5,5 +5,14 @@
 // Aces count either as 1 or 11 - play conservatively, so that if giving an ace a value of 11 causes you to lose and 1 allows you to win, then go with 1.
 
 module.exports = (cards) => {
-
+	let count = 0;
+	for (let i in cards) {
+		if (['J','Q','K'].indexOf(cards[i]) !== -1) {
+			cards[i] = 10;
+		} else if (cards[i] === 'A') {
+			cards[i] = 1;
+		}
+		count += cards[i];
+	}
+	return count > 21;
 };
