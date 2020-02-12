@@ -1,20 +1,18 @@
-// Fibonacci numbers are created in the following way:
-//  - F(0) = 0
-//  - F(1) = 1
-//  - ...
-//  - F(n) = F(n-2) + F(n-1)
-// Write a function that calculates the nth Fibonacci number.
-module.exports = (n) => {
-  return fib(n)
+// Write a function that recursively determines if a string is a palindrome.
+// Notes: 
+// An empty string counts as a palindrome.
+module.exports = (str) => {
+  return isPalindrome(str);
 }
 
-function fib(n) {
-  if (n==0) {
-      return 0;
+function isPalindrome(str) {
+  if (str.length <= 1) {
+      return true;
   }
-  if (n==1) {
-      return 1;
+  console.log(str);
+  if (str[0] === str[str.length -1]) {
+      return isPalindrome(str.substring(1, str.length - 3));
   } else {
-      return fib(n - 1) + fib(n - 2)
+      return false;
   }
 }
