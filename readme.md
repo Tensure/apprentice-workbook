@@ -19,22 +19,27 @@ This is where you will begin your journey to web developer by learning the basic
 $git remote add upstream https://github.com/Tensure/apprentice-workbook.git
 ```
 
-In the project directory, you can run:
+In the project directory, you can open VS Code built in terminal and run:
 
+to acquire all necessary dependencies
 ```
 $npm install
 ```
 
+to access all the challenges 
 ```
 $npm run test
 ```
-to access all the challenges or individual challenge by using the command, for example
 
+or individual challenge by using the command, for example
 ```
 $npm run test:e7
 ```
+You can replace e to m or h depending on the level of difficulty you feel comfortable. 
 
-### Please don't hesitate to reach out to use if you encounter any difficulty
+To terminate the test mode via control C
+
+### Please don't hesitate to reach out to us if you encounter any difficulty via #apprentice-central channel on tensure slack. We appreciate your time and effort and sincerely want you to succeed in your journey!!
 
 
 
