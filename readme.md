@@ -21,21 +21,20 @@ $git remote add upstream https://github.com/Tensure/apprentice-workbook.git
 
 In the project directory, you can open VS Code built in terminal and run:
 
-to acquire all necessary dependencies
 ```
 $npm install
 ```
+to acquire all necessary dependencies
 
-to access all the challenges 
 ```
 $npm run test
 ```
+to access all the challenges 
 
-or individual challenge by using the command, for example
 ```
 $npm run test:e7
 ```
-You can replace e to m or h depending on the level of difficulty you feel comfortable. 
+or individual challenge by using the command, for example. You can replace e to m or h depending on the level of difficulty you feel comfortable. 
 
 To terminate the test mode via control C
 
