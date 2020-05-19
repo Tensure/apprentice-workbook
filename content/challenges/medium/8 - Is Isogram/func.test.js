@@ -1,11 +1,11 @@
 const func = require('./func.js');
 
 test('Expect true, is isogram', () => {
-    expect(func("Algorism")).toBe(true);
+    expect(func("Algorism")).toEqual(true);
 });
 test('Expect false, is not isogram', () => {
-    expect(func("PasSword")).toBe(false);
+    expect(func("PasSword")).toEqual(false);
 });
 test('Expect false, is not isogram', () => {
-    expect(func("Consecutive")).toBe(false);
+    expect(func("Consecutive")).toEqual(false);
 });

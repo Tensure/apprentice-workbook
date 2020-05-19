@@ -1,11 +1,11 @@
 const func = require('./func.js');
 
 test('Expect the whole thing to be reversed', () => {
-    expect(func("Reverse")).toBe("esreveR");
+    expect(func("Reverse")).toEqual("esreveR");
 });
 test('Expect only certain words to be reversed"', () => {
-    expect(func("This is a typical sentence.")).toBe("This is a lacipyt .ecnetnes");
+    expect(func("This is a typical sentence.")).toEqual("This is a lacipyt .ecnetnes");
 });
 test('Expect result to match input', () => {
-    expect(func("The dog is big.")).toBe("The dog is big.");
+    expect(func("The dog is big.")).toEqual("The dog is big.");
 });

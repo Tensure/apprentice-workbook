@@ -1,17 +1,17 @@
 const func = require("./func.js");
 
 test("Expected: 'True'", () => {
-  expect(func(false)).toBe(true);
+  expect(func(false)).toEqual(true);
 });
 test("Expected: 'False'", () => {
-  expect(func(true)).toBe(false);
+  expect(func(true)).toEqual(false);
 });
 test("Expected: 'boolean expected'", () => {
-  expect(func(null)).toBe('boolean expected');
+  expect(func(null)).toEqual('boolean expected');
 });
 test("Expected: 'boolean expected'", () => {
-  expect(func(undefined)).toBe('boolean expected');
+  expect(func(undefined)).toEqual('boolean expected');
 });
 test("Expected: 'boolean expected'", () => {
-  expect(func(0)).toBe('boolean expected');
+  expect(func(0)).toEqual('boolean expected');
 });

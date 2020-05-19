@@ -1,14 +1,14 @@
 const func = require('./func.js');
 
 test('Expect true, is palindrom', () => {
-    expect(func("abcba")).toBe(true);
+    expect(func("abcba")).toEqual(true);
 });
 test('Expect true, 1 character is always palindrom', () => {
-    expect(func("b")).toBe(true);
+    expect(func("b")).toEqual(true);
 });
 test('Expect true, 0 characters is always palindrom', () => {
-    expect(func("")).toBe(true);
+    expect(func("")).toEqual(true);
 });
 test('Expect false, 2 different characters is never palindrome', () => {
-    expect(func("ba")).toBe(false);
+    expect(func("ba")).toEqual(false);
 });
