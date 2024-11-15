@@ -12,3 +12,9 @@ test('Expects false (6pm)', () => {
 test('Expects false (23)', () => {
     expect(func(23)).toEqual(false);
 });
+test('Expects true (0)', () => {
+    expect(func(0)).toEqual(true);
+});
+test('Expects false (24)', () => {
+    expect(func(24)).toEqual(false);
+});
