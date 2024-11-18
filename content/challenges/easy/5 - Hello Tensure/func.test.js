@@ -9,3 +9,6 @@ test("Expected: 'Tensure'", () => {
 test("Expected: 'Hello Tensure'", () => {
   expect(func(15)).toEqual('Hello Tensure');
 });
+test("Expected: 'Goodbye Tensure'", () => {
+  expect(func(14)).toEqual('Goodbye Tensure');
+});

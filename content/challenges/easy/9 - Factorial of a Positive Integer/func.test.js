@@ -9,7 +9,9 @@ test("Expected: 1", () => {
 test("Expected: 2", () => {
   expect(func(2)).toEqual(2);
 });
-test("Expected:9", () => {
+test("Expected: 9", () => {
   expect(func(9)).toEqual(362880);
 });
-
+test("Expected: -1", () => {
+  expect(() => func(-1)).toThrow();
+});

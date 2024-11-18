@@ -12,3 +12,6 @@ test('Expects "orange" to NOT have double letter', () => {
 test('Expects "munchkin" to NOT have double letter', () => {
     expect(func("munchkin")).toEqual(false);
 });
+test('Expects "Ooze" to have double letter', () => {
+    expect(func("Ooze")).toEqual(true);
+});
