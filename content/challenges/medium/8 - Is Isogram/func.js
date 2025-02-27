@@ -4,5 +4,13 @@
 // Notes: 
 //   - Ignore letter case (should not be case sensitive).
 //   - All test cases contain valid one word strings.
+
+/**
+ * check if a string is an isogram
+ * @param {string} str 
+ *
+ * @returns {boolean}
+ */
 module.exports = (str) => {
+    // your code here
 }

@@ -2,3 +2,5 @@ node_modules
 settings.json
 jest_html_reporters.html
 reporter/index.html
+
+.DS_Store

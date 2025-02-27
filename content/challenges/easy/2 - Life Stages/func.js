@@ -6,5 +6,13 @@
 // Greater than 13 and less than 19 is 'Teen'
 // Greater than 19 and less than 30 is 'Young Adult'
 // Greater than 30 is 'Dead'
+
+/**
+ * Returns a string representing the stage of life a person is in
+ * @param {*} age
+ *
+ * @returns {string}
+ */
 module.exports = (age) => {
+    // Your code here
 }

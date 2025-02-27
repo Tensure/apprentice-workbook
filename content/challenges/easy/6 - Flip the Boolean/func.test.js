@@ -15,3 +15,6 @@ test("Expected: 'boolean expected'", () => {
 test("Expected: 'boolean expected'", () => {
   expect(func(0)).toEqual('boolean expected');
 });
+test("Expected: 'boolean expected'", () => {
+  expect(func('chicken')).toEqual('boolean expected');
+});

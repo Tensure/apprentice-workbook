@@ -29,7 +29,9 @@
     "test:m11": "concurrently -k \"jest \\\"content/challenges/medium/11 - Identical Sub Arrays/func.test.js\\\" --config=jest.config.json --watchAll\" \"live-server -q --watch=./reporter/index.html --open=/reporter\"",
     "test:m12": "concurrently -k \"jest \\\"content/challenges/medium/12 - Little Dictonary/func.test.js\\\" --config=jest.config.json --watchAll\" \"live-server -q --watch=./reporter/index.html --open=/reporter\"",
     "test:h1": "concurrently -k \"jest \\\"content/challenges/hard/1 - Fibonacci/func.test.js\\\" --config=jest.config.json --watchAll\" \"live-server -q --watch=./reporter/index.html --open=/reporter\"",
-    "test:h2": "concurrently -k \"jest \\\"content/challenges/hard/2 - Recurse Palindrome/func.test.js\\\" --config=jest.config.json --watchAll\" \"live-server -q --watch=./reporter/index.html --open=/reporter\""
+    "test:h2": "concurrently -k \"jest \\\"content/challenges/hard/2 - Recurse Palindrome/func.test.js\\\" --config=jest.config.json --watchAll\" \"live-server -q --watch=./reporter/index.html --open=/reporter\"",
+    "test:b1": "concurrently -k \"jest \\\"content/challenges/bonus/1 - Poker Winner/func.test.js\\\" --config=jest.config.json --watchAll\" \"live-server -q --watch=./reporter/index.html --open=/reporter\"",
+    "test:b2": "concurrently -k \"jest \\\"content/challenges/bonus/2 - Walking Robot/func.test.js\\\" --config=jest.config.json --watchAll\" \"live-server -q --watch=./reporter/index.html --open=/reporter\""
   },
   "author": "",
   "license": "ISC",
