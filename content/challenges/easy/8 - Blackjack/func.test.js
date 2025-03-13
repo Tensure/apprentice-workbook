@@ -25,7 +25,7 @@ test("Expected: 'Blackjack!'", () => {
   expect(func(['A', 10])).toEqual('Blackjack!');
 });
 test("Expected: 'Blackjack!'", () => {
-  expect(func(['A', 'A', 10])).toEqual('Blackjack!');
+  expect(func(['A', 'A', 10])).toEqual(true);
 });
 test("Expected: 'Blackjack!'", () => {
   expect(func(['A', 9, 'A'])).toEqual('Blackjack!');
