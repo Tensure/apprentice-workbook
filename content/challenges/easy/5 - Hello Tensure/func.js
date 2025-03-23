@@ -11,5 +11,15 @@
  * @returns {string}
  */
 module.exports = (num) => {
-    // your code here
+    if (num % 3 === 0) {
+        if (num % 5 === 0) {
+            return "Hello Tensure"
+        } else {
+            return "Hello"
+        }
+    } else if (num % 5 === 0) {
+        return "Tensure"
+    } else {
+        return "Goodbye Tensure"
+    }
 };

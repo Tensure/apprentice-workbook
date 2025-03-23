@@ -15,5 +15,23 @@
  * @returns {boolean | string} true if sum exceeds 21, false if sum is under or equal to 21, 'Blackjack!' if sum is exactly 21
  */
 module.exports = (cards) => {
-    // Your code here
+    cards = cards.map(v => ['J', 'Q', 'K'].includes(v) ? 10 : v) 
+    const aces = cards.filter(v => v === 'A')
+    const numbers = cards.filter(v => v !== 'A')
+    let numeric_sum = numbers.reduce((a, b) => a + b, 0)
+
+    // Add  all Aces as 11s and then cycle through them subtracting 10 (to make them a 1 instead) until we get to 21 or below (or run out of Aces)
+    numeric_sum += 11 * aces.length
+    for (i = 0; i < aces.length & numeric_sum > 21; i++) {
+        numeric_sum -= 10
+    }
+
+    // returns
+    if (numeric_sum > 21) {
+        return true
+    } else if (numeric_sum === 21) {
+        return "Blackjack!"
+    } else {
+        return false
+    }
 };

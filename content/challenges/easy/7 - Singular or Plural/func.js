@@ -9,5 +9,5 @@
  * @returns {boolean}
  */
 module.exports = (word) => {
-    
+    return word.toLowerCase().endsWith('s')
 };

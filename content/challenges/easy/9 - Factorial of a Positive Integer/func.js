@@ -12,5 +12,16 @@
  * @returns {number}
  */
 module.exports = (num) => {
-   // Your code goes here
+   if (num < 0) {
+      throw new Error("Cannot calculate a factorial of a negative number")
+   }
+   else if (num === 0) {
+      return 1
+   } else {
+      let factorial = 1
+      for (i = num; i > 1; i--) {
+         factorial *= i
+      }
+      return factorial
+   }
 };
