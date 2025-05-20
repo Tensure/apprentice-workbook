@@ -41,5 +41,6 @@ To terminate the test mode via control C in the built in terminal.
 ### Please don't hesitate to reach out to us if you encounter any difficulty via #apprentice-central channel on tensure slack. We appreciate your time and effort and sincerely want you to succeed in your journey!!
 
 
-
+### [API List](https://github.com/public-apis/public-apis) for Capstone Project
+- Find a topic that you're interested in from this extensive list of free APIs that you can use for your capstone project.
 
